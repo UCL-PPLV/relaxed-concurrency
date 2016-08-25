@@ -1,0 +1,56 @@
+The current goal of the project is to investigate how relaxed
+concurrent data structures (specifically, relaxed priority queues) are
+used in client applications.
+
+For the client applications, we shall consider the following two
+problems:
+
+(1) Dijksra's SSSP;
+(2) Discrete Event Simulation
+
+Initial reading list:
+
+[Skiplists and priority queues]
+
+* Lotan-Shavit-IPDPS00.pdf
+
+* Alistarh-al-PPoPP15.pdf
+  - https://github.com/jkopinsky/SprayList
+  - https://github.com/LPD-EPFL/ASCYLIB
+
+* Rihani-al-ArXiV.pdf
+
+[Applications]
+
+* http://iss.ices.utexas.edu/?p=projects/galois/lonestar
+* Wimmer-al-PPoPP14.pdf
+* Nguyen-al-SOSP13.pdf
+
+[Ideas for potential misuses]
+
+* Lin-Dig-ICST13.pdf
+
+[Specification via Hoare logics]
+
+* Sergey-al-ESOP15.pdf
+* Sergey-al-OOPSLA15.pdf
+
+[More non-linearizable methods]
+
+java.util.concurrent
+
+LongAccumulator.get()
+ConcurrentHashMap.size()
+
+Task 1:
+
+Procude simple pseudocode version of the algorithms (1) and (2),
+parametrized by a data structure, employed for implementing the
+priority queue.
+
+Task 2:
+
+Provide a Hoare-style specification for the priority queue, suitable
+for the clients.
+
+
