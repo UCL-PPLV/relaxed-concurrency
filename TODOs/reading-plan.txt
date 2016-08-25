@@ -1,6 +1,7 @@
 The current goal of the project is to investigate how relaxed
 concurrent data structures (specifically, relaxed priority queues) are
-used in client applications.
+used in client applications and provide them with declarative and
+natural Hoare-styl specifications.
 
 For the client applications, we shall consider the following two
 problems:
