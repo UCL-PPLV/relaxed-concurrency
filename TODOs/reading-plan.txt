@@ -18,6 +18,10 @@ Initial reading list:
   - https://github.com/jkopinsky/SprayList
   - https://github.com/LPD-EPFL/ASCYLIB
 
+* Sundell-Tigas-TR03.pdf
+
+* Wimmer-al-PPoPP15.pdf
+
 * Rihani-al-ArXiV.pdf
 
 [Applications]
